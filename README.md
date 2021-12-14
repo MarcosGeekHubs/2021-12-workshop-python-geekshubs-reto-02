@@ -1,4 +1,4 @@
-# 2021-12-workshop-python-reto-01 - - - 
+# 2021-12-workshop-python-reto-01 
 2021-12-workshop-python-reto-01
 - pip install -e .
 - pip install pytest
