@@ -1,13 +1,13 @@
-from entity.metaHero import metaHero
+from src.entity.metaHero import metaHero
 
 class superHero(metaclass=metaHero):
 
-    def __init__(self, name, power, secretName, city, location):
-        self.name = name
-        self.power = power
-        self.secretName = secretName
-        self.city = city
-        self.location = location
+    def __init__(self):
+        self.name = 'Batman'
+        self.power = 1024
+        self.secretName = 'Bruce Wayne'
+        self.city = 'Gotham'
+        self.location = 'Batcave'
 
     def maxPower(self, power2):
         return self.power + power2
