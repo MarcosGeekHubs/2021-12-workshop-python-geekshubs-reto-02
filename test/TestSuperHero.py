@@ -1,5 +1,4 @@
 import unittest
-import pytest
 from src.entity.superHero import superHero
 from src.entity.metaHero import metaHero
 
