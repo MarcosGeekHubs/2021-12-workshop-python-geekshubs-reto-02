@@ -5,3 +5,9 @@ class metaHero(type):
     metaclass because it is best suited for this purpose.
     """
 
+    __instance = None
+
+    def __call__(self, *args, **kwargs):
+        if self.__instance is None: self.__instance = super(metaHero, cls).__call__(*args, **kwargs)
+
+        return self.__instance
