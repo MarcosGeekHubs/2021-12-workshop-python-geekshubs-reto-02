@@ -12,7 +12,7 @@ class TestSuperHero(unittest.TestCase):
         self.assertTrue(self.s1)
 
     def test_hasName(self):
-        self.assertEqual(self.s1.name, 'Batman', 'Wrong superhero choosed.')
+        self.assertEqual(self.s1.name, 'Batman', 'Wrong superhero choosen.')
 
     def test_hasPower(self):
         self.assertGreaterEqual(self.s1.power, 1024)
